@@ -6,6 +6,13 @@ var Port = React.createClass({
 			contact: false
 		};
 	},
+	homeClicked: function(){
+		this.setState({
+			home: true,
+			bio: false,
+			contact: false
+		});
+	},
 	bioClicked: function(){
 		this.setState({
 			home: false,
@@ -23,9 +30,9 @@ var Port = React.createClass({
 	render: function(){
 		return(
 			<div> 
- 				<div className="homepage">Home</div>
- 				<div className="biopage" onClick="{this.bioClicked}">About Me</div>
- 				<div className="contactpage" onClick="{this.contactClicked}">Contact</div>
+ 				<div className="homepage" onClick={this.homeClicked}>Home</div>
+ 				<div className="biopage" onClick={this.bioClicked}>About Me</div>
+ 				<div className="contactpage" onClick={this.contactClicked}>Contact</div>
 
  				<div className="mainLayout"> 
  					{this.state.home ? <Home /> : null} 
