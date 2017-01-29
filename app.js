@@ -65,7 +65,7 @@ var Bio = React.createClass({
 	render: function(){
 		return(
 			<div>
-				<div>Yo</div>
+				<div className="bioContainer">Hi, my name is Annie.</div>
 			</div>
 		)
 	}
@@ -81,7 +81,7 @@ var Contact = React.createClass({
 	render: function(){
 		return(
 			<div>
-				<div>Yo</div>
+				<div className="contactContainer">This is my contact.</div>
 			</div>
 		)
 	}
