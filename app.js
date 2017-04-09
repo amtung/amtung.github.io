@@ -57,8 +57,7 @@ var Home = React.createClass({
 				<a href="https://twitter.com/annietungg"><img className="icons" src="Image/twitter.png"/></a>
 				<a href="https://medium.com/@amtung"><img className="icons" src="Image/medium.png"/></a>
 			</div>
-			</div>
-
+			</div> 
 		)
 	}
 });
