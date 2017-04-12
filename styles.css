@@ -1,3 +1,23 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
 a{text-decoration: none;}
 @font-face {
     font-family: 'script';
@@ -11,14 +31,14 @@ a{text-decoration: none;}
     font-style: normal;
 }
 .header{
-	text-align: center;
-	width: 400px;
+    text-align: center;
+    width: 400px;
     height: 30px;
     margin: auto;
+    margin-top: 10px;
 }
 .nav{ 
-	color: black;
-	font-family: 'josefin';
+    font-family: 'josefin';
     color: black;
      width: 10%;
      font-size: 22px;
@@ -26,33 +46,51 @@ a{text-decoration: none;}
     padding: 0px 25px;
 }
 .laptop-img{
-	max-width: 1300px;
-	width: 100%;
-	/*margin: auto;*/
+    max-width: 1920px;
+    width: 100%;
+    /*margin: auto;*/
 }
 .images{
-	width: 100%;
+    width: 100%;
 }
 .aboutContainer{
-	font-family: 'josefin';
-	text-align: center;
-	font-size: 18px;
-	margin-left: 100px;
-    margin-right: 100px;
+    font-family: 'josefin';
+    text-align: center;
+    font-size: 18px;
+    margin-left: 75px;
+    margin-right: 75px;
 }
 .contactInfo{
-	text-align: center;
-	width: 500px;
+    text-align: center;
+    width: 500px;
     height: 10px;
     margin: auto;
 }
 .icons{
-	display: inline-block;
+    display: inline-block;
     padding: 0px 8px;
     width: 25px;
-	height: 25px;
-	margin-bottom: 25px;
+    height: 25px;
+    margin-bottom: 8px;
+    opacity: .7;
+}
+.icons:hover {
+    opacity: 100;
+}
+.appPhoto{
+    height: 100%;
+    width: 27%;
+    border-radius: 25px;
+    display: inline-block;
+    padding: 0px 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.myApps{
+    text-align: center;
+    height: 600px;
+    width: 100%;
 }
 #homepage{
-	
+    
 }
