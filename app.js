@@ -56,7 +56,7 @@ var Home = React.createClass({
 				<a href="mailto:annie.mmt@gmail.com"><img className="icons" src="Image/gmail.png"/></a>
 				<a href="https://twitter.com/annietungg"><img className="icons" src="Image/twitter.png"/></a>
 				<a href="https://medium.com/@amtung"><img className="icons" src="Image/medium.png"/></a>
-				<div className="signature"> <img className="images" src="image/signature.png"/></div>
+				<div className="signature"> <img className="images" src="Image/signature.png"/></div>
 			</div>
 			</div>
 
